@@ -38,5 +38,3 @@ jobs:
 
       - name: Deploy to Cloud Run
         run: gcloud run deploy notely --image us-central1-docker.pkg.dev/notely-426203/notely-ar-repo/pedrogaya/notely:latest --region us-central1 --allow-unauthenticated --project notely-426203 --max-instances=4
-
-@sha256:318c28a45819b01ca15b3b6e3f3395759d74e676e6d4afa79d352cad764718c8
